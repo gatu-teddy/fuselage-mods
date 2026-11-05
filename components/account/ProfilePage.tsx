@@ -46,7 +46,7 @@ function Gate({ children }: { children: ReactNode }) {
           </button>
         </div>
       </div>
-      {/* Mobile: footer sits below the pop-up, just above the tab bar (wide layouts use the hover footer) */}
+      {/* Mobile: footer sits below the pop-up, just above the tab bar (wide layouts use the site footer) */}
       <footer className="md:hidden flex-shrink-0 px-4 py-3" style={{ borderTop: '1px solid hsl(var(--border))' }}>
         <FooterContent />
       </footer>
